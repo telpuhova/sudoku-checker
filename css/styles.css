@@ -1,0 +1,5 @@
+input {display: block; padding: 0; margin: 0; border: 0; width: 100%;}
+td {margin: 0; padding: 0;}
+.a {width: 300px;}
+.result {display: none; border: 1px solid black; }
+.col {float: left; margin-left: 50px; margin-top: 20px;}

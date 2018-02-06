@@ -2,9 +2,132 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/sudoku.js"></script>
+    <script src="js/sudoku-interface.js"></script>
+    <title>Sudoku checker</title>
   </head>
   <body>
+    <h1>Sudoku checker</h1>
+    <div class="col">
+      <div class="a">
+        <form id="sudoku-form">
+          <table class="table table-bordered table-condensed">
+            <tbody>
+              <tr>
+                <td><input id="0" value="4"/></td>
+                <td><input id="1"  value="4"/></td>
+                <td><input id="2"  value="4"/></td>
+                <td><input id="3"  value="4"/></td>
+                <td><input id="4"  value="4"/></td>
+                <td><input id="5"  value="4"/></td>
+                <td><input id="6"  value="4"/></td>
+                <td><input id="7"  value="4"/></td>
+                <td><input id="8"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="9"  value="4"/></td>
+                <td><input id="10"  value="4"/></td>
+                <td><input id="11"  value="4"/></td>
+                <td><input id="12"  value="4"/></td>
+                <td><input id="13"  value="4"/></td>
+                <td><input id="14"  value="4"/></td>
+                <td><input id="15"  value="4"/></td>
+                <td><input id="16"  value="4"/></td>
+                <td><input id="17"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="18"  value="4"/></td>
+                <td><input id="19"  value="4"/></td>
+                <td><input id="20"  value="4"/></td>
+                <td><input id="21"  value="4"/></td>
+                <td><input id="22"  value="4"/></td>
+                <td><input id="23"  value="4"/></td>
+                <td><input id="24"  value="4"/></td>
+                <td><input id="25"  value="4"/></td>
+                <td><input id="26"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="27"  value="4"/></td>
+                <td><input id="28"  value="4"/></td>
+                <td><input id="29"  value="4"/></td>
+                <td><input id="30"  value="4"/></td>
+                <td><input id="31"  value="4"/></td>
+                <td><input id="32"  value="4"/></td>
+                <td><input id="33"  value="4"/></td>
+                <td><input id="34"  value="4"/></td>
+                <td><input id="35"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="36"  value="4"/></td>
+                <td><input id="37"  value="4"/></td>
+                <td><input id="38"  value="4"/></td>
+                <td><input id="39"  value="4"/></td>
+                <td><input id="40"  value="4"/></td>
+                <td><input id="41"  value="4"/></td>
+                <td><input id="42"  value="4"/></td>
+                <td><input id="43"  value="4"/></td>
+                <td><input id="44"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="45"  value="4"/></td>
+                <td><input id="46"  value="4"/></td>
+                <td><input id="47"  value="4"/></td>
+                <td><input id="48"  value="4"/></td>
+                <td><input id="49"  value="4"/></td>
+                <td><input id="50"  value="4"/></td>
+                <td><input id="51"  value="4"/></td>
+                <td><input id="52"  value="4"/></td>
+                <td><input id="53"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="54"  value="4"/></td>
+                <td><input id="55"  value="4"/></td>
+                <td><input id="56"  value="4"/></td>
+                <td><input id="57"  value="4"/></td>
+                <td><input id="58"  value="4"/></td>
+                <td><input id="59"  value="4"/></td>
+                <td><input id="60"  value="4"/></td>
+                <td><input id="61"  value="4"/></td>
+                <td><input id="62"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="63"  value="4"/></td>
+                <td><input id="64"  value="4"/></td>
+                <td><input id="65"  value="4"/></td>
+                <td><input id="66"  value="4"/></td>
+                <td><input id="67"  value="4"/></td>
+                <td><input id="68"  value="4"/></td>
+                <td><input id="69"  value="4"/></td>
+                <td><input id="70"  value="4"/></td>
+                <td><input id="71"  value="4"/></td>
+              </tr>
+              <tr>
+                <td><input id="72"  value="4"/></td>
+                <td><input id="73"  value="4"/></td>
+                <td><input id="74"  value="4"/></td>
+                <td><input id="75"  value="4"/></td>
+                <td><input id="76"  value="4"/></td>
+                <td><input id="77"  value="4"/></td>
+                <td><input id="78"  value="4"/></td>
+                <td><input id="79"  value="4"/></td>
+                <td><input id="80"  value="4"/></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="submit">check</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="result">
+        <p id="result"></p>
+      </div>
+
+    </div>
 
   </body>
 </html>
