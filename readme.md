@@ -1,22 +1,22 @@
-# _sudoku-checker_
+# sudoku-checker
 
-#### _Sudoku checker, 2/6/2018_
+Sudoku checker, 2/6/2018
 
-#### By _**telpuhova**_
+**By Natalia Telpukhova**
 
 ## Description
 
-_An application that checks if a completed Sudoku puzzle is “legal”._
+An application that checks if a completed Sudoku puzzle is “legal”.
 
 ## Setup
 
-* _clone repository_
-* _open index.html in browser_
+* clone repository
+* open index.html in browser
 
 ## Technologies Used
 
-_HTML, CSS, JavaScript, Node, npm, gulp, jasmine, karma, Bootstrap, jQuery_
+HTML, CSS, JavaScript, Node, npm, gulp, jasmine, karma, Bootstrap, jQuery
 
 ### License
 
-Copyright (c) 2018 ****_telpuhova_****
+Copyright (c) 2018 Natalia Telpukhova
